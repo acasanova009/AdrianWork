@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE matriz SYSTEM "matriz.dtd" >
+
+<matriz> 
+	<renglon>
+	   <columna> 7.5 </columna>
+	   <columna> 1.7 </columna>
+	   <columna> 7 </columna>
+		
+	</renglon>
+	
+	<renglon>
+	   <columna> 5.2 </columna>
+	   <columna> 8.1 </columna>
+	   <columna> 7.2 </columna>
+	</renglon>
+	
+	
+	<renglon>
+	   <columna> 6 </columna>
+	   <columna> 8 </columna>
+	   <columna> 2.3 </columna>
+	</renglon>
+	
+	
+	<renglon>
+	   <columna> 6 </columna>
+	   <columna> 8 </columna>
+	   <columna> 2.3 </columna>
+	</renglon>
+
+</matriz>

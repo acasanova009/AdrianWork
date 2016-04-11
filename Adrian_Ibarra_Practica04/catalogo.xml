@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!-- To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+ -->
+<!DOCTYPE cache SYSTEM  "catalogo.dtd" >
+<catalogo>
+<profesor  id="98346" nombre="Canek Pelaez" carrera="CIENCIAS_DE_LA_COMPUTACION" grado="DOCTOR">
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+    <salarios>10000</salarios>
+</profesor>
+<profesor  id="859416" nombre="Rodrigo Robles" carrera="MATEMATICAS" grado="MAESTRO">
+    <salarios>15000</salarios>
+    <salarios>15000</salarios>
+    <salarios>12300</salarios>
+    <salarios>17568</salarios>
+    <salarios>18678</salarios>
+    <salarios>15439</salarios>
+    <salarios>18857</salarios>
+    <salarios>16885</salarios>
+    <salarios>10676</salarios>
+    <salarios>17589</salarios>
+    <salarios>18579</salarios>
+    <salarios>17568</salarios>
+</profesor>
+<profesor  id="968368" nombre="Adrian Ibarra" carrera="FISICA" grado="LICENCIADO">
+    <salarios>15000</salarios>
+    <salarios>15857</salarios>
+    <salarios>12300</salarios>
+    <salarios>17568</salarios>
+    <salarios>18678</salarios>
+    <salarios>15785</salarios>
+    <salarios>18857</salarios>
+    <salarios>16885</salarios>
+    <salarios>10676</salarios>
+    <salarios>17589</salarios>
+    <salarios>18579</salarios>
+    <salarios>17568</salarios>
+</profesor>
+</catalogo>

@@ -1,0 +1,9 @@
+
+
+<!ELEMENT catalogo (#PCDATA)>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>
+<!ATTLIST profesor nombre CDATA #REQUIRED>
+<!ATTLIST profesor id CDATA #IMPLIED>
+<!ATTLIST profesor grado CDATA #IMPLIED>
+<!ATTLIST profesor carrera CDATA #REQUIRED>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See commented blocks below for -->
+<!-- some examples of how to customize the build. -->
+<!-- (If you delete it and reopen the project it will be recreated.) -->
+<!-- By default, only the Clean and Build commands use this build script. -->
+<!-- Commands such as Run, Debug, and Test only use this build script if -->
+<!-- the Compile on Save feature is turned off for the project. -->
+<!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
+<!-- in the project's Project Properties dialog box.-->
+<project name="Adrian_Ibarra_Fragoso_Practica02" default="ejecutar" basedir=".">
+    <description>Builds, tests, and runs the project Adrian_Ibarra_Fragoso_Practica02.</description>
+<!--    <import file="nbproject/build-impl.xml"/>-->
+    
+<!--	<project>-->
+	
+	
+		<target name="limpiar">
+			<delete dir="build" />
+		</target>
+	
+		<target name="compilar" >
+				<mkdir dir="build/classes" />
+				<javac srcdir="src"  includeantruntime="false" destdir="build/classes" >
+					<classpath>
+                <pathelement path="lib/jdom-2.0.6/jdom-2.0.6.jar" />
+            </classpath >
+					
+				</javac>
+		</target>
+	
+		<target name="jar" depends="compilar">
+				<mkdir dir="build/jar" />
+				<jar destfile="build/jar/App.jar" basedir="build/classes" >
+					
+					
+					
+					
+            		<zipgroupfileset dir="lib/jdom-2.0.6" includes="jdom-2.0.6.jar" />
+					
+					<manifest >
+						<attribute name="Main-Class" value="fciencias.edatos.practica02.Practica02" />
+						
+						<attribute name="DependencyFinder" value="main" />
+						
+					</manifest>
+				</jar>
+			
+		</target>
+	
+		<target name="ejecutar" depends="jar" >
+			<java jar="build/jar/App.jar" fork="true"  >
+			</java>
+			
+		</target>
+	 <target name="doc" >
+        <mkdir dir="doc" />
+				<javadoc sourcepath="src" destdir="doc" access="private" windowtitle="Ejemplos de XML con Java y ANT" doctitle="Ejemplos de XML con JAva y ANT" author="true" version="true" />
+    </target >
+<!--</project>-->
+	
+	
+</project>

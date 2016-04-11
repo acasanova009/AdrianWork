@@ -1,0 +1,4 @@
+
+<!ELEMENT matriz (#PCDATA)>
+<!ELEMENT renglon (#PCDATA)>
+<!ELEMENT columna (#PCDATA)>
